@@ -51,8 +51,11 @@ public class StableMatching {
                 }
             }
         }
+        
+        for(Match match : matchMap.values()) {
+            System.out.println(match.proposer.name + " -- " + match.receiver.name);
+        }
 
-        System.out.println(matchMap.toString());
     }
 
 
@@ -125,7 +128,6 @@ public class StableMatching {
             e.printStackTrace();
         }
 
-        System.out.println(proposerMap.toString());
 
         return new Pair<>(proposerMap, receiverMap);
     }
