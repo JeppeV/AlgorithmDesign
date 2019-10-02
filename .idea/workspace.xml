@@ -28,7 +28,7 @@
   <component name="ProjectId" id="1Q0XbW4PsZpgVNzjiLwr4j3BYb3" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algdes-labs/closest-points" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,13 +52,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlantingTrees">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="KruskalAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minimum_spanning_tree.KruskalAlgorithm" />
       <module name="AlgorithmDesign" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="minimum_spanning_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interval_scheduling.Main" />
+      <module name="AlgorithmDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interval_scheduling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.PlantingTrees" />
         <item itemvalue="Application.KruskalAlgorithm" />
         <item itemvalue="Application.StableMatching" />
