@@ -15,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -52,13 +53,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="KruskalAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="minimum_spanning_tree.KruskalAlgorithm" />
       <module name="AlgorithmDesign" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="minimum_spanning_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sequence_alignment.Main" />
+      <module name="AlgorithmDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sequence_alignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PlantingTrees" />
         <item itemvalue="Application.KruskalAlgorithm" />
